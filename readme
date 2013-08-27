@@ -1,0 +1,9 @@
+firstly load all the four .el files in this folder using (load-file path).
+
+To justify a group of text you need to find its initial anf final position this can be done using (point) function. Then u need to call
+(runoverpara initial final linewidth) to get the justified text. The justified text will be replace the original text on the buffer.
+
+Some other useful functions -
+(hyphenate str)  return hyphenated string.
+(putnewline i j linewidth) This function runs over only one para. It returns the output str which is the same para but with justication.
+
